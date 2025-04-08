@@ -65,6 +65,11 @@ const Mobile_sidebar = () => {
                     <span className='text-lg'>sangam@gmail.com</span>
                 </button>
 
+                {/* download resume button */}
+                <button className='block capitalize text-white px-3 py-2 font-semibold rounded-3xl bg-gradient-to-r from-[#194BFD] to-[#AD13FB] cursor-pointer'>
+                    download resume
+                </button>
+
             </div>
 
         </div>
