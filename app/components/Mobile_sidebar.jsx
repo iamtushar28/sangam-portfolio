@@ -2,6 +2,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { closeMobileSidebar } from '../redux-store/sidebarSlice'; //import closeMobileSidebar from redux-store
+import Gradient_button from './Gradient_button';
 import { RxCross1 } from "react-icons/rx";
 import { FaMobile } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
@@ -66,9 +67,7 @@ const Mobile_sidebar = () => {
                 </button>
 
                 {/* download resume button */}
-                <button className='block capitalize text-white px-3 py-2 font-semibold rounded-3xl bg-gradient-to-r from-[#194BFD] to-[#AD13FB] cursor-pointer'>
-                    download resume
-                </button>
+                <Gradient_button title={'download resume'} />
 
             </div>
 

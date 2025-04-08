@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { toggleMobileSidebar } from '../redux-store/sidebarSlice'
 import Social_links_navbar from './Social_links_navbar';
 import { IoIosMenu } from "react-icons/io";
+import Gradient_button from './Gradient_button';
 
 const Navbar = () => {
 
@@ -49,9 +50,9 @@ const Navbar = () => {
                 </div>
 
                 {/* download resume button */}
-                <button className='hidden md:block capitalize text-white px-3 py-2 font-semibold rounded-3xl bg-gradient-to-r from-[#194BFD] to-[#AD13FB] cursor-pointer'>
-                    download resume
-                </button>
+                <div className='hidden md:block'>
+                    <Gradient_button title={'download resume'} />
+                </div>
 
                 {/* toogle menu button */}
                 <button
