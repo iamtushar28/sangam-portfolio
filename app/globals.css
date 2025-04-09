@@ -11,3 +11,24 @@ body {
     font-family: 'MyFont', sans-serif;
 }
 
+::selection{
+  background-color: white;
+  color: black;
+}
+
+@keyframes spin-slow {
+
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+
+}
+
+.spin-slow {
+
+  animation: spin-slow 4s linear infinite;
+
+}

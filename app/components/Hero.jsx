@@ -43,10 +43,10 @@ const Hero = () => {
 
                 {/* star icon */}
                 <BsStars className='text-4xl text-[#194BFD] absolute -top-32 right-12 animate-pulse' />
-                <GoNorthStar className='text-4xl text-[#AD13FB] absolute bottom-16 right-97' />
+                <GoNorthStar className='spin-slow text-4xl text-[#AD13FB] absolute bottom-16 right-97' />
 
                 {/* animated circle text */}
-                <div className="absolute h-28 w-28 right-10 bottom-20 z-10">
+                <div className="spin-slow absolute h-28 w-28 right-10 bottom-20 z-10">
                     <div className="h-28 w-28 rounded-full border border-[#194BFD] absolute right-0 bottom-0 delay-75 flex justify-center items-center">
                         <GiStarShuriken className="text-3xl text-white z-10" />
 
@@ -59,7 +59,7 @@ const Hero = () => {
                             </defs>
                             <text fill="white" fontSize="11" fontFamily="Arial" textAnchor="middle">
                                 <textPath href="#circlePath" startOffset="50%">
-                                    WEB DEVELOPER • WEB DEVELOPER •
+                                    WEB DEVELOPER • GAME DEVELOPER •
                                 </textPath>
                             </text>
                         </svg>

@@ -45,10 +45,10 @@ const Mobile_hero = () => {
 
                 {/* star icon */}
                 <BsStars className='text-4xl text-[#194BFD] absolute -top-16 right-12 animate-pulse' />
-                <GoNorthStar className='text-4xl text-[#AD13FB] absolute top-10 left-6' />
+                <GoNorthStar className='spin-slow text-4xl text-[#AD13FB] absolute top-10 left-6' />
 
                 {/* animated circle text */}
-                <div className="absolute h-20 w-20 right-4 bottom-4 z-10">
+                <div className="spin-slow absolute h-20 w-20 right-4 bottom-4 z-10">
                     <div className="h-20 w-20 rounded-full border border-[#194BFD] absolute right-0 bottom-0 delay-75 flex justify-center items-center">
                         <GiStarShuriken className="text-xl text-white z-10" />
 
@@ -61,7 +61,7 @@ const Mobile_hero = () => {
                             </defs>
                             <text fill="white" fontSize="11" fontFamily="Arial" textAnchor="middle">
                                 <textPath href="#circlePath" startOffset="50%">
-                                    WEB DEVELOPER • WEB DEVELOPER •
+                                    WEB DEVELOPER • GAME DEVELOPER •
                                 </textPath>
                             </text>
                         </svg>
