@@ -13,7 +13,7 @@ const Mobile_sidebar = () => {
     const dispatch = useDispatch();
 
     return (
-        <div className={`z-50 h-screen w-full py-6 bg-zinc-950 absolute top-0 left-0 text-white ${isMobileSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-all duration-300`}>
+        <div className={`z-50 h-screen w-full py-6 bg-zinc-950 fixed bottom-0 top-0 left-0 text-white ${isMobileSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-all duration-300`}>
 
             <div className='px-8 pb-6 flex justify-between items-center border-b border-zinc-600'>
                 <h2 className='text-2xl capitalize text-white'>Menu</h2>
