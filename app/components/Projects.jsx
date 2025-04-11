@@ -49,7 +49,7 @@ const Projects = () => {
             </div>
 
             <div className="overflow-hidden w-full h-fit">
-                <div className="project2-scroll-left-infinite">
+                <div className="project2-scroll-right-infinite">
                     {/* Duplicate everything for seamless scroll */}
                     {[...Array(2)].map((_, i) => (
                         <div key={i} className="flex gap-5 px-3">

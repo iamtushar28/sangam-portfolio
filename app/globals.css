@@ -48,7 +48,7 @@ body {
   width: max-content;
 }
 
-@keyframes project1-scroll-left {
+@keyframes project1-scroll-right-infinite {
   0% {
     transform: translateX(0%);
   }
@@ -58,22 +58,23 @@ body {
 }
 
 .project1-scroll-left-infinite {
-  animation: scroll-left 30s linear infinite;
+  animation: project1-scroll-right-infinite 60s linear infinite;
   display: flex;
   width: max-content;
 }
 
-@keyframes project2-scroll-left {
+
+@keyframes project2-scroll-right-infinite {
   0% {
-    transform: translateX(0%);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(0%);
   }
 }
 
-.project2-scroll-left-infinite {
-  animation: scroll-left 36s linear infinite;
+.project2-scroll-right-infinite {
+  animation: project2-scroll-right-infinite 60s linear infinite;
   display: flex;
   width: max-content;
 }

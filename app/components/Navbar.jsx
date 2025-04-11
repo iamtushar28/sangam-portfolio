@@ -12,7 +12,7 @@ const Navbar = () => {
     const dispatch = useDispatch();
 
     return (
-        <nav className='z-40 w-full h-fit px-3 py-4 md:px-12 md:py-6 bg-zinc-950 flex flex-col gap-4 fixed left-0 top-0 right-0'>
+        <nav className='z-40 w-full h-fit px-3 py-4 md:px-12 md:py-6 bg-zinc-950 flex flex-col gap-4 fixed left-0 top-0 right-0 border-b border-zinc-800'>
             <Social_links_navbar />
 
             <div className='flex justify-between items-center'>
