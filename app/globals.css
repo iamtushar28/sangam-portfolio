@@ -47,3 +47,33 @@ body {
   display: flex;
   width: max-content;
 }
+
+@keyframes project1-scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.project1-scroll-left-infinite {
+  animation: scroll-left 30s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+@keyframes project2-scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.project2-scroll-left-infinite {
+  animation: scroll-left 36s linear infinite;
+  display: flex;
+  width: max-content;
+}
