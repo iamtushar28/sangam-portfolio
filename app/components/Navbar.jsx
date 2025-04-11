@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Link from 'next/link';
 import { useDispatch } from 'react-redux';
 import { toggleMobileSidebar } from '../redux-store/sidebarSlice'
 import Social_links_navbar from './Social_links_navbar';
@@ -11,7 +12,7 @@ const Navbar = () => {
     const dispatch = useDispatch();
 
     return (
-        <nav className='w-full h-fit px-3 py-4 md:px-12 md:py-6 bg-zinc-950 flex flex-col gap-4'>
+        <nav className='z-40 w-full h-fit px-3 py-4 md:px-12 md:py-6 bg-zinc-950 flex flex-col gap-4 fixed left-0 top-0 right-0'>
             <Social_links_navbar />
 
             <div className='flex justify-between items-center'>
@@ -23,29 +24,29 @@ const Navbar = () => {
                 <div className='hidden md:flex gap-8 items-center'>
 
                     {/* home */}
-                    <button className='text-lg capitalize text-white'>
+                    <Link href={"#home"} className='text-lg capitalize text-white'>
                         home
-                    </button>
+                    </Link>
 
                     {/* service */}
-                    <button className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                    <Link href={"#service"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
                         service
-                    </button>
+                    </Link>
 
                     {/* projects */}
-                    <button className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                    <Link href={"#project"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
                         projects
-                    </button>
+                    </Link>
 
                     {/* about */}
-                    <button className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                    <Link href={"#about"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
                         about
-                    </button>
+                    </Link>
 
                     {/* contact */}
-                    <button className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                    <Link href={"#contact"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
                         contact
-                    </button>
+                    </Link>
 
                 </div>
 

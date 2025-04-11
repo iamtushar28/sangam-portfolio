@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Link from 'next/link';
 import { useDispatch, useSelector } from 'react-redux';
 import { closeMobileSidebar } from '../redux-store/sidebarSlice'; //import closeMobileSidebar from redux-store
 import Gradient_button from './Gradient_button';
@@ -30,29 +31,29 @@ const Mobile_sidebar = () => {
             <div className='py-12 px-8 flex flex-col gap-6 items-start'>
 
                 {/* home */}
-                <button className='text-xl capitalize text-white'>
+                <Link href={"#home"} className='text-lg capitalize text-white'>
                     home
-                </button>
+                </Link>
 
                 {/* service */}
-                <button className='text-xl capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                <Link href={"#service"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
                     service
-                </button>
+                </Link>
 
                 {/* projects */}
-                <button className='text-xl capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                <Link href={"#project"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
                     projects
-                </button>
+                </Link>
 
                 {/* about */}
-                <button className='text-xl capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                <Link href={"#about"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
                     about
-                </button>
+                </Link>
 
                 {/* contact */}
-                <button className='text-xl capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                <Link href={"#contact"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
                     contact
-                </button>
+                </Link>
 
                 {/* phone */}
                 <button className='text-zinc-400 flex gap-1 items-center'>

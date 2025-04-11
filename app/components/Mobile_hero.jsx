@@ -9,7 +9,7 @@ import { GoNorthStar } from "react-icons/go"; //star icon 2
 
 const Mobile_hero = () => {
     return (
-        <section className='md:hidden w-full h-fit py-8 flex gap-24 flex-col justify-center items-center'>
+        <section className='mt-32 md:hidden w-full h-fit py-8 flex gap-24 flex-col justify-center items-center'>
 
             {/* hero text */}
             <div>

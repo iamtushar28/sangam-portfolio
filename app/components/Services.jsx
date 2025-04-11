@@ -5,7 +5,7 @@ import { RiGamepadLine } from "react-icons/ri"; //game icon
 
 const Services = () => {
     return (
-        <section className='mt-14 text-white w-full h-fit py-10 flex flex-col gap-12 justify-center items-center'>
+        <section id='service' className='mt-14 text-white w-full h-fit py-10 flex flex-col gap-12 justify-center items-center'>
 
             {/* title */}
             <div className='flex gap-4 flex-col justify-center items-center'>

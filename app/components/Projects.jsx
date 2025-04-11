@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Project1 from '../../public/images/project.png'
 const Projects = () => {
     return (
-        <section className='mt-6 text-white w-full h-fit py-10 flex flex-col gap-12 justify-center items-center'>
+        <section id='project' className='mt-6 text-white w-full h-fit py-10 flex flex-col gap-12 justify-center items-center'>
 
             {/* title */}
             <div className='flex gap-4 flex-col justify-center items-center'>

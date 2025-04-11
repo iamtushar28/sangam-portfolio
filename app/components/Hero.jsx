@@ -9,7 +9,7 @@ import { GoNorthStar } from "react-icons/go"; //star icon 2
 
 const Hero = () => {
     return (
-        <section className='hidden w-full h-screen md:flex justify-center items-center'>
+        <section id='home' className='mt-32 hidden w-full h-screen md:flex justify-center items-center'>
 
             {/* background strip */}
             <div className='w-[78%] h-64 bg-gradient-to-tr from-[#17171a42] to-[#17171A] relative'>
